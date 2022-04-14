@@ -17,19 +17,6 @@ The six possible exploits are:
 
 Each color is vulnerable to only 2 of the 6 possible exploits. First discover which color has the specific vulnerability, then write a short description of how to exploit it, and finally demonstrate it using screenshots compiled into a GIF.
 
-## Blue
-
-Vulnerability #1: __________________
-
-Description:
-
-<img src="blue-vuln1.gif">
-
-Vulnerability #2: __________________
-
-Description:
-
-<img src="blue-vuln2.gif">
 
 ## Green
 
@@ -73,6 +60,4 @@ In this case escenario I create a malicious form. And create an Admin. When a lo
 ![CSRF_red](https://user-images.githubusercontent.com/78192383/163418076-066d5b50-d644-46a9-abce-49b1f8a2994a.gif)
 
 
-## Notes
 
-Describe any challenges encountered while doing the work

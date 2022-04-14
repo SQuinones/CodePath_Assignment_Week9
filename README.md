@@ -44,25 +44,27 @@ In this case escenario go to the main login. If the wrong password is entered an
 ![Green_user_enume](https://user-images.githubusercontent.com/78192383/163407608-867e8f98-bb7b-455d-9382-30c21c481eb0.gif)
 
 
-
-
-
-Vulnerability #2: __________________
+Vulnerability #2: 
 
 Description:
 
-<img src="green-vuln2.gif">
+An attacker can use XSS to send a malicious script to an unsuspecting user. The end user’s browser has no way to know that the script should not be trusted, and will execute the script. Because it thinks the script came from a trusted source, the malicious script can access any cookies, session tokens, or other sensitive information retained by the browser and used with that site.
+
+![Green_XSS](https://user-images.githubusercontent.com/78192383/163409978-6b810ea8-3ebc-4db7-9318-91de8e7a0f8c.gif)
 
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: Insecure Direct Object Reference
 
-Description:
+Description: Insecure Direct Object Reference occurs when a application exposes a reference to an internal implementation object. Using this way, it reveals the real identifier and format/pattern used of the element in the storage backend side. 
 
-<img src="red-vuln1.gif">
+In this case, use the public find a Salesperson tool to look for someone. After a Salesperson is found, use the id parameter in the url to look for other people in the system. Doing that allows to see sensitive information.
 
-Vulnerability #2: __________________
+![Red_Insecure_direct](https://user-images.githubusercontent.com/78192383/163411496-336d1ca9-5aef-4d29-b175-401a8f2fc8bd.gif)
+
+
+Vulnerability #2: 
 
 Description:
 

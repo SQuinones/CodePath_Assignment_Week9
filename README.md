@@ -66,9 +66,11 @@ In this case, use the public find a Salesperson tool to look for someone. After 
 
 Vulnerability #2: 
 
-Description:
+Description:CSRFs are typically conducted using malicious social engineering, such as an email or link that tricks the victim into sending a forged request to a server. As the unsuspecting user is authenticated by their application at the time of the attack, it’s impossible to distinguish a legitimate request from a forged one. CSRF vulnerabilities can lead to severe attacks, including full account takeovers.
 
-<img src="red-vuln2.gif">
+In this case escenario I create a malicious form. And create an Admin. When a logged in user goes the malicious website, the salesperson with id 1 has their information updated. 
+
+![CSRF_red](https://user-images.githubusercontent.com/78192383/163418076-066d5b50-d644-46a9-abce-49b1f8a2994a.gif)
 
 
 ## Notes
